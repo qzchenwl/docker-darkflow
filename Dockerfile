@@ -12,4 +12,6 @@ ADD cfg cfg
 ADD bin bin
 ADD sample_img /img
 
+ADD YOLO.ipynb /notebooks/YOLO.ipynb
+
 CMD ["flow", "--imgdir", "/img", "--model", "cfg/yolo.cfg", "--load", "bin/yolo.weights", "--json"]
