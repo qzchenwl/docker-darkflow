@@ -1,4 +1,4 @@
 ## RUN
 ```bash
-$ docker run -v /path/to/your/image-folder:/img qzchenwl/darkflow
+$ docker run -it -v /path/to/your/image-folder:/img qzchenwl/darkflow
 ```
